@@ -5,6 +5,105 @@ body {
   overflow-x: hidden;
 }
 
+.bg-custom-primary {
+  background-color: #d3d0fa;
+}
+
+.header {
+  color: black;
+}
+
+.custome-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card .card-header {
+  border-bottom: unset;
+}
+
+.card .card-body {
+  padding-top: unset;
+}
+
+.alert-title {
+  max-width: 140px;
+  background-color: white;
+  padding: 5px;
+  margin-top: -30px;
+}
+
+.alert-custom-orange {
+  border-color:  #FFA500;
+}
+
+.alert-text-orange {
+  color:  #FFA500;
+}
+
+.custom-card-body {
+  padding-top: 0px;
+}
+
+.card-body .alert {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.custom-card-nested {
+  box-shadow: none;
+}
+
+.custom-card-nested .card {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+  .custom-card-nested .card .card-header {
+  border-bottom: unset;
+  min-height: unset;
+  padding: 0;
+}
+
+.custom-card-nested .card .card-body {
+  padding: 0;
+}
+
+.custom-avatar .img-thumbnail {
+  padding: unset;
+  border: unset;
+}
+
+.mini-card-custom {
+  margin: 20px 0 20px 0;
+}
+.mini-card-custom .card {
+  background-color: unset;
+}
+
+.mini-card-custom .card .card-header {
+  border-bottom: unset;
+  min-height: unset;
+  padding: 0;
+}
+
+.btn-custom-footer {
+  background-color: unset;
+  border: 1px solid black !important;
+}
+
+.btn-custom-footer-orange {
+  background-color: #FFA500;
+}
+
+.card-body .form-control {
+  border: unset;
+  border-top: 1px solid #E4E6EF;
+}
+
+.post {
+  padding: 15px
+}
 /* 
 put your css styles here, incase you dont use scss
 
